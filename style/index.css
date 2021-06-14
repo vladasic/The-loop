@@ -1,0 +1,218 @@
+button {
+    border: none;
+}
+
+.page {
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: 'Montserrat', 'Arial', 'sans-serif';
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    background: #E5E5E5;
+}
+
+.header {
+    padding-top: 50px;
+    background: #F9F6F1;
+}
+
+.header__sidebar {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 45px;
+    padding-bottom: 160px;
+}
+
+.header__sidebar_category {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+}
+
+.header__sidebar_logo {
+    width: 201px;
+    height: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.header__sidebar_basket {
+    width: 30px;
+    margin-left: 50px;
+}
+
+.header__sidebar_sale-button {
+    margin-left: -30px;
+}
+
+.header__slidebar {
+    display: grid;
+    grid-template-areas: 'paragraph img' 'sale img' 'button img';
+    justify-items: center;
+    padding-bottom: 130px;
+}
+
+.header__slidebar_paragraph {
+    font-family: Montserrat;
+    grid-area: paragraph;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+    margin: 0;
+}
+
+.header__slidebar_sale-text {
+    margin: 0;
+    grid-area: sale;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 67px;
+    letter-spacing: 0.04em;
+}
+
+.header__slidebar_button {
+    margin: 0;
+    grid-area: button;
+    width: 240px;
+    height: 55px;
+    background: #D7B399;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: white;
+}
+
+.header__slidebar_image {
+    grid-area: img;
+    width: 556px;
+    height: 377px;
+}
+
+.hedaer__switch {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 40px;
+}
+
+.hedaer__switch_button {
+    width: 0px;
+    height: 7px;
+    background: #CECECE;
+}
+
+.hedaer__switch_button-active {
+    background: #D7B399;
+}
+
+.sale-info {
+    padding-top: 80px;
+    background-color: black;
+}
+
+.sale-info__top {
+    padding-bottom: 23px;
+    margin: 0;
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.sale-info__top-light {
+    margin: 0;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.sale-info__bottom {
+    margin: 0;
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    /* identical to box height */
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.collection {
+    background-color: #F9F6F1;
+    display: flex;
+    justify-content: center;
+}
+
+.collection__category {
+    display: grid;
+    justify-items: center;
+    grid-template-areas: 'text .' 'subtext img' 'button img';
+    margin-right: 50px;
+}
+
+.collection__category_color {
+    background-color: #F4F4F4;
+}
+
+.collection__text {
+    grid-area: text;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.collection__text-light {
+    font-weight: 300;
+}
+
+.colletion__subtext {
+    grid-area: subtext;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    justify-self: start;
+}
+
+.collection__button {
+    grid-area: button;
+    width: 80px;
+    height: 30px;
+    background: #D7B399;
+    justify-self: start;
+}
+
+.collection__image {
+    grid-area: img;
+    width: 190px;
+    height: 171px;
+}
